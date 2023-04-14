@@ -1,5 +1,5 @@
 Fill in the passphrases here.
-Q1: greenEggsAndHam
+Q1: greenEggsAndHam 
 Q2: iHateCplusplus
 Q3: HTMLRocks
 Q4: JavaScriptRules
