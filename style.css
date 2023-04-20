@@ -1,0 +1,114 @@
+/* apply background color to the file */
+body {
+    background-color: lightblue; 
+}
+
+/* Universal selector */
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+/* ID selector */
+#attend {
+    font-weight: bold;
+    font-style: Anuphan;
+    padding-bottom: 30px;
+    color: #ff0000;
+    text-align: start;
+    text-decoration: dotted;
+}
+
+/* Element selector */
+h2 {
+    color: rgb(234, 123, 68);
+    margin: auto;
+}
+
+/* attribute selector  */
+li[class="name"] {
+    margin: 5px 5px;
+    border-radius: 3px;
+}
+
+/* psuedo-class selector  | Background-color*/
+input:focus {
+    background-color: yellow;
+}
+
+/* selector list  | Margin, Padding*/
+h2, h3 {
+    /* long margin  */
+    margin-top:  1vw;
+    margin-bottom:  1vw;
+    margin-left:  1vw;
+    margin-right:  1vw;
+
+    /* long padding  */
+    padding-top:  0.3vw;
+    padding-bottom:  0.3vw;
+    padding-left:  0.3vw;
+    padding-right:  0.3vw;
+
+    border-radius: 1vh;
+}
+
+/* Descendant Combinator | Layouts*/
+ol {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+form {
+    display: flex;
+}
+
+ol li {
+    margin: 0.5rem 0.5rem;
+    padding: 0.25rem 0.25rem;
+}
+
+/* Child Combinator  | Border, Display */
+ol  > li {
+    display: block;
+    border-style: groove;
+    border-color: antiquewhite;
+    border-width: 2px;
+    border-radius: 3px;
+}
+
+/* General sibling combinator  | Margin, Border*/
+ol ~ li {
+    border-radius: 3px;
+}
+
+/* Adjacent sibling combinator  | Margin, Border*/
+label + input  {
+    margin: 20px 20px 20px 20px;
+    border: 3px;
+}
+
+input + label  {
+    margin: 0.2in 0.2in;
+    border: 3px;
+}
+
+/* Combining Two Selectors  | Display, Sizing, Position*/
+footer.footer {
+    display: inline-block;
+    margin: 30pt 30pt;
+    background-color: aliceblue;
+}
+
+img {
+    height: auto;
+    width: auto;
+    position: relative;
+}
+
+/* | Responsiveness, Fonts  */
+@media (max-width: 600px) {
+    * {
+        font-family: 'Roboto', sans-serif;
+    }
+}
