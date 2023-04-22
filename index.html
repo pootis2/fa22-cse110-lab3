@@ -15,47 +15,43 @@
     </head>
     <body>
         <header> 
-
-            <h1 style="text-align:center;"> Making a video game meeting</h1>
-            <h2 style="color:green;text-align:center;">Brainstorming what type of game to make</h2>
-            <h3 style="text-align:center;">2023 April 14</h3>
-
-            <div style="text-align: center;">
-                <img src="folder1/meme.png" alt="PD" width="350" height="300">            
-            </div>
+            <h1>Making a video game meeting</h1>
+            <h2>Brainstorming what type of game to make</h2>
+            <h3>2023 April 14</h3>
+            <img src="folder1/meme.png" alt="PD" width="350" height="300">
         </header>
         <hr>
         <section>
             <h2>attendance list</h2>
-            <ul id="attend">
                 <ol>
-                    <li>Elena Whitaker</li>
-                    <li>Victor Glenn</li>
-                    <li>Nora Montoya</li>
-                    <li>Jesse Orr</li>
-                    <li>Warren Mills</li>
+                    <li class="list1">Elena Whitaker</li>
+                    <li class="list1">Victor Glenn</li>
+                    <li class="list1">Nora Montoya</li>
+                    <li class="list1">Jesse Orr</li>
+                    <li class="list1">Warren Mills</li>
                 </ol>
         </section>
         <section>
-            <h2>what this meeting covers</h2>
-            <p>Figure out what type of game to make.</p>
+            
         </section>
         <hr>
-        <section>
+        <section class="meeting_box">
+            <h2>what this meeting covers</h2>
+            <li id="fig_out">Figure out what type of game to make.</li>
             <h2>What we have done from last meeting:</h2>
-            <p>Choose to make a video game.</p>
-            <p>Introduce team members.</p>
-            <p>Choose a team leader.</p>
+            <li class="list2">Choose to make a video game.</li>
+            <li class="list2">Introduce team members.</li>
+            <li class="list2">Choose a team leader.</li>
             <h2>What we haven't done from last meeting:</h2>
-            Decide what type of game to make.
-
+            <li class="list2">Decide what type of game to make.</li>
             <h2>What we plan to do for this meeting:</h2>
-            <p>Vote to decide what type of game to make.</p>
+            <li class="list2">Vote to decide what type of game to make.</li>
         </section>
+        <hr>
             <form>
-                <h2>Vote what kind of game do you want to make?</h2>
-                <input list="voteBox">
-                    <datalist id="voteBox">
+                <h2 class="vote">Vote what kind of game do you want to make?</h2>
+                <input list="vote_box">
+                    <datalist id="vote_box">
                         <option value="Sandbox"></option>
                         <option value="RTS"></option>
                         <option value="FPS"></option>
@@ -63,17 +59,18 @@
                         <option value="Simulation"></option>
                     </datalist>
                 <button type="button">confirm</button>
-                <hr>
+
             </form>
-            <section>
+            <hr>
+            <section class="concern_box">
                 <h2>Questions & Concerns?</h2>
-                <p>Will this game be free to play?</p>
-                <p>How big will this game be?</p>
-                <p>If the game will be big, should we recruit more team members?</p>
+                <li class="list3">Will this game be free to play?</li>
+                <li class="list3">How big will this game be?</li>
+                <li class="list3">If the game will be big, should we recruit more team members?</li>
             </section>
         <hr>
         <h2>white board for this meeting</h2>
-            <img src="folder1/board.png" alt="PD" width="350" height="200">
+            <img src="folder1/whiteboard.png" alt="PD" width="350" height="200">
         <hr>
      <section>
             <div>
@@ -83,8 +80,9 @@
                             type="video/mp4">
                 </video>
             </div>
+            <hr>
             <div>
-                <h2>Audio of the discussion(actually a song also from TF2)</h2>
+                <h2 class="audio">Audio of the discussion(actually a song also from TF2)</h2>
                 <audio
                     controls
                     src="folder1/Rocket_Jump_Waltz.mp3">
