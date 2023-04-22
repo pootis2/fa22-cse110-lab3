@@ -5,17 +5,25 @@
 }
 
 /* relative unit */
-h1{ 
-  text-decoration: underline;
+h1{
   background-color:hsl(123, 87%, 47%);
   font-size: 6vh;
   font-style: italic;
 }
 
-h2 {
+h2{
   color: rgb(234, 123, 68);
   font-size: 19.2px;
   margin: auto;
+}
+
+p, h1{
+  text-decoration: underline;
+}
+
+p{
+  font-size: 12pt;
+  background-color: pink;
 }
 
 /* ID Selector */
@@ -35,24 +43,43 @@ h2 {
 }
 
 #fig_out{
-  color: red;
+  color: blue;
   font-size: 12pt;
+}
+
+/* relative unit */
+#list1{
+  background: lightgreen;
+  margin: 0.5em;
+}
+
+#list2{
+  background: lightyellow;
+  position: relative;
+}
+
+#list3{
+  background: lightcoral;
+  position: sticky;
 }
 
 /* Class Selector, relative unit*/
 .vote{
   font-size: 3vmax;
   display: inline-block;
+  color:chocolate
 }
 
 .whiteboard{
   display: inline;
-  
+  color: rebeccapurple
 }
 
 .audio{
   font-size: 0.2in;
   font-style: times;
+  background-color: #FFF;
+  color: black;
 }
 
 /* Box Model */
@@ -96,22 +123,6 @@ h2 {
   justify-content: center;
 }
 
-/* element, relative unit */
-.list1{
-  background: lightgreen;
-  margin: 0.5em;
-}
-
-.list2{
-  text-decoration: underline;
-  position: relative;
-}
-
-.list3{
-  background: lightcoral;
-  position: sticky;
-}
-
 /* Pseudo-class: hover button */
 button:hover{
   color: yellow;
@@ -122,8 +133,12 @@ a:hover{
   color: red;
 }
 
-a:active{
+p:active{
   color: blue;
+}
+
+a[target] {
+  background-color: yellow;
 }
 
 /* Responsive */
@@ -133,6 +148,7 @@ a:active{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
+
 
 /* Descendant Combinator */
 ol li {
@@ -144,7 +160,7 @@ ol li {
 ol > li {
   display: block;
   border-style: double;
-  border-color: greenyellow;
+  border-color: antiquewhite;
   border-width: 2px;
   border-radius: 3px;
 }
