@@ -13,7 +13,7 @@ h1{
 
 h2{
   color: rgb(234, 123, 68);
-  font-size: 24px;
+  font-size: 28px;
   margin: auto;
 }
 
@@ -65,7 +65,7 @@ p{
 
 /* Class Selector, relative unit*/
 .vote{
-  font-size: 0.25vmax;
+  font-size: 0.09vmax;
   display: inline-block;
   color:chocolate
 }
