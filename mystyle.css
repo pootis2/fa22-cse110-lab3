@@ -123,6 +123,13 @@ p{
   justify-content: center;
 }
 
+img {
+  height: auto;
+  width: auto;
+  max-height: fit-content;
+  max-width: fit-content;
+}
+
 /* Pseudo-class: hover button */
 button:hover{
   color: yellow;
@@ -148,7 +155,6 @@ a[target] {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 }
-
 
 /* Descendant Combinator */
 ol li {
