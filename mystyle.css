@@ -65,7 +65,7 @@ p{
 
 /* Class Selector, relative unit*/
 .vote{
-  font-size: 1vmax;
+  font-size: 4vmin;
   display: inline-block;
   color:chocolate
 }
